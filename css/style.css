@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family:'roboto' sans-serif;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+a
+{
+    text-decoration: none;
+    list-style: none;
+}
+.container
+{
+    max-width: 80%;
+    margin: auto;
+}
+.bg-dark
+{
+    background-color: #252A34;
+    color: white;
+}
+.logo img
+{
+    height: 110px;
+    background: none;
+    padding: 5px;
+}
+.text
+{
+    color: red;
+}
+#navbar
+{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#navbar ul
+{
+    list-style: none;
+    display: flex;
+}
+#navbar ul li a{
+    color: white;
+    padding: 16px;
+    font-size: 40px;
+}
+#navbar ul li a:hover{
+    background-color: skyblue;
+    border-radius: 2px;
+    transition: 0.5s ease-in-out;
+    border-radius: 50px;
+}
+.text-primary
+{
+    color: red;
+}
+.bgd{
+text-align: center;
+}
+.l-head
+{
+    font-size: 3rem ;
+    text-transform: uppercase;
+    padding: 2rem;
+    text-align: center;
+}
+#bg
+{
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url("..//images/gym.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    
+}
+.btn
+{
+    color: white;
+    background-color: aqua;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out
+}
+.btn:hover
+{
+    background-color: red;
+    transition: 0.3s ease-in-out
+}
+.bgd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(0, 0,0,0.8);
+}
+.bg-light
+{
+    background-color: whitesmoke;
+    color:#252A34;
+}
+.about-content{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 1rem;
+}
+.about-content div{
+    flex: 1;
+}
+.about-content img
+{
+    flex: 1;
+    width: 50%;
+    margin-left: 2rem;
+    border: 4px solid white;
+    box-shadow: 0 0 2PX #252A34;
+}
+#cta
+{
+    text-align: center;
+    background: url("../images/images\ \(2\).jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   text-transform: capitalize;
+    
+}
+.P
+{
+    font-size: 25PX;
+}
+.lead{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btb{
+    text-align:  center;
+    color: white;
+    background-color: aqua;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+.cta-content
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,0,0,0.6);
+    padding: 6rem;
+    color: white;
+}
+.btb:hover{
+    background: red;
+    transition: 0.3s ease-in-out;
+}
+.hh{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 4rem;
+
+}
+#programs
+{
+color:gray;
+text-align: center;
+padding: 20px;
+}
+.boxes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.box
+{
+    padding: 1rem;
+    flex: 1;
+}
+#programs .boxes .box img
+{
+    background-color: black;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 100%  ;
+    border-color: black;
+}
+.trainer-box
+{
+    box-shadow:0 0 2PX #252A34 ;
+    padding: 20px;
+    border-radius: 5px;
+}
+#trainers
+{
+    background-color: whitesmoke;
+}
+#trainers .trainers-boxes
+{
+display: flex;
+
+}
+#trainers .trainers-boxes .trainer-box{
+    background-color: white;
+    flex: 1;
+    border-radius: 5px;
+    margin: 1rem;
+    display: block;
+}
+#trainers .trainers-boxes .trainer-box img
+{
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+#trainers .trainers-boxes .trainer-box ul
+{
+    display: flex;
+    list-style:none ;
+    color: #252A34;
+}
+#trainers .trainers-boxes .trainer-box ul li a{
+    color: #252A34;
+    margin-right: 10px;
+}
+#trainers .trainers-boxes .trainer-box ul li a:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.hh{
+    font-size: 40px;
+}
+.bb
+{
+    font-size: 25px;
+}
+.bgg
+{
+    background-color: #08d9d6;
+    color: #fff;
+}
+#contact
+{
+    display: flex;
+}
+#contact .contact-us,
+#contact .map{
+    flex: 1;
+}
+.contact-us input,
+.contact-us textarea
+{
+    width: 95%;
+    padding: 0.75rem;
+    border: none;
+    margin-bottom: 1rem ;
+    outline: none;
+    margin-left: 1rem;
+}
+.btn12
+{
+    background-color: #252A34;
+    color: white;
+}
+.btn12:hover
+{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.form-group
+{
+    display: flex;
+    width: 95%;
+    text-align: center;
+}
+.form-group input[type="text"]{
+    margin-right: 1rem;
+    width: 50%;
+}
+.c-heading
+{
+    text-align: center;
+    font-size: 40px;
+    margin-right: 50px;
+}
+.form-group input[type="email"]
+{
+    width: 50%;
+}
+.foot
+{
+    color: white;
+    background-color: #252A34;
+    padding: 1rem;
+    text-align: center;
+    font-size: 30PX;
+}
+.dd{
+    background-color: black;
+    color: beige;
+}
+.dd ul li a:hover
+{
+    background-color: none;
+}
+ 
